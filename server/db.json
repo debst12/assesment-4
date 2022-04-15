@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Aragorn",
+      "rating": 5,
+      "imageURL" : "https://www.indiewire.com/wp-content/uploads/2017/11/aragon-the-lord-of-the-rings.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Galdalf the White",
+      "rating": 5,
+      "imageURL" : "https://middle-earth.xenite.org/files/2014/01/gandalf-the-white.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Legolas",
+      "rating": 4,
+      "imageURL" : "https://pbs.twimg.com/media/B5AX6FXIYAADOnj.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Gimli",
+      "rating": 3,
+      "imageURL" : "https://www.jta.org/wp-content/uploads/2012/06/lordoftherings.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Boromir",
+      "rating": 3,
+      "imageURL" : "https://i0.wp.com/graphicpolicy.com/wp-content/uploads/2021/10/OneDoesNotSimply.jpg?ssl=1"
+    },
+    {
+      "id": 6,
+      "title": "Frodo",
+      "rating": 2,
+      "imageURL" : "https://cdn.mos.cms.futurecdn.net/H5R5MAaporgoaKuxVG8jo7.png"
+    },
+    {
+      "id": 7,
+      "title": "Sam",
+      "rating": 5,
+      "imageURL" : "https://i.pinimg.com/originals/ed/33/64/ed336486bb4abcd973f80b2cc7609be2.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Merry",
+      "rating": 2,
+      "imageURL" : "https://i.pinimg.com/originals/20/1b/88/201b8814bc242568936940c34180eb6e.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Pippin",
+      "rating": 2,
+      "imageURL" : "https://ofhobbitsandvirtues.files.wordpress.com/2015/09/pippin-cover-photo-e1442720735912.jpg?w=920"
+    },
+    {
+      "id": 10,
+      "title": "Smeagol",
+      "rating": 3,
+      "imageURL" : "https://api.time.com/wp-content/uploads/2015/11/the-lord-of-the-rings-the-return-of-the-king-gollum.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Lurtz",
+      "rating": 4,
+      "imageURL" : "http://filmint.nu/wp-content/uploads/2015/04/medium_x_e0a1393d.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Saruman",
+      "rating": 5,
+      "imageURL" : "https://1.bp.blogspot.com/-5B2cotNegXM/VzqfVEwJccI/AAAAAAAAcrc/L3VC9ntTjnw-pFb_OaZjFE62D-ZQovZJQCLcB/s1600/saruman.jpg"
+    }
+  ]

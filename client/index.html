@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+    <header>
+      <h1>Lord of the Rings Character List</h1>
+  </header>
+  <button id="complimentButton">Get a compliment</button>
+  <button id="fortuneButton">Get a fortune</button>
+  <main>
+
+  <form>
+      <input 
+          type='text'
+          id="title"
+          placeholder="What is the Character's Name?"/>
+      <input 
+          type='text'
+          id="img"
+          placeholder='Paste an image URL'/>
+      <section id="ratings-container">
+          <p>Rate the Character:</p>
+          <div id="radio-container">
+              <label for="one">
+                  <input
+                      type="radio"
+                      name="ratings"
+                      value="1"
+                      id="one"/>
+                  1
+              </label>
+              <label for="two">
+                  <input
+                      type="radio"
+                      name="ratings"
+                      value="2"
+                      id="two"/>
+                  2
+              </label>
+              <label for="three">
+                  <input
+                      type="radio"
+                      name="ratings"
+                      value="3"
+                      id="three"/>
+                  3
+              </label>
+              <label for="four">
+                  <input
+                      type="radio"
+                      name="ratings"
+                      value="4"
+                      id="four"/>
+                  4
+              </label>
+              <label for="five">
+                  <input
+                      type="radio"
+                      name="ratings"
+                      value="5"
+                      id="five"/>
+                  5
+              </label>
+          </div>
+      </section>
+      <button>add </button>
+  </form>
+
+  
+  <section id="movies-container"></section>
+
+  </main>
+
+  
+  
+  <script>
+    document.getElementById("complimentButton").onclick = function () {
+      axios.get("http://localhost:4000/api/compliment/")
+      .then(function (response) {
+        const data = response.data;
+        alert(data);
+      });
+    };
+    </script>
+    <script>
+      document.getElementById('fortuneButton').onclick = function () {
+        axios.get("http://localhost:4000/api/fortune/")
+        .then(function (response) {
+          const data = response.data
+          alert(data)
+        })
+      }
+      
+      </script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
