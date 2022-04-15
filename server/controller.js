@@ -1,5 +1,5 @@
 let movies = require('./db.json')
-let globalID = 11
+let globalID = 13
 
 module.exports = {
     getMovies: (req, res) => {
